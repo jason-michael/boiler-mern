@@ -1,0 +1,30 @@
+GET http://localhost:5000/api/users
+
+###
+
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "Jason Michael",
+  "phone": "420-000-6969",
+  "email": "michael.jason@outlook.com"
+}
+
+###
+
+DELETE http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "_id": "" // insert id to test
+}
+
+###
+
+PUT http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "_id": "" // insert id to test
+}
